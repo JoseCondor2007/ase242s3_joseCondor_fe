@@ -1,0 +1,48 @@
+/* Importar una fuente moderna (si no tienes internet, usará sans-serif) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@300&display=swap');
+
+.contenedor-principal {
+  /* Alineación del texto y centrado en pantalla */
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.titulo {
+  /* Color de letra con degradado */
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* Tamaño de fuente */
+  font-size: 48px;
+  
+  /* Tipo de letra */
+  font-family: 'Poppins', sans-serif;
+  
+  /* Estilo extra creativo */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.descripcion {
+  /* Tipo de letra secundario */
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Elemento creativo adicional */
+.decoracion {
+  width: 100px;
+  height: 5px;
+  background: #e52e71;
+  margin: 20px auto;
+  border-radius: 5px;
+  transition: width 0.4s;
+}
+
+.decoracion:hover {
+  width: 200px;
+}
